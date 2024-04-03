@@ -1,0 +1,138 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  border: 20px aqua;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  border-left: 50px;
+  border-color: aqua;
+  border: 20px salmon;
+}
+
+.navbar {
+  background-color: rgb(217, 69, 77);
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 0 60px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.navbar .menubar {
+  width: 1.5%;
+  padding-top: 5px;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  border: 20px salmon;
+}
+
+.yellow-section,
+.pink-section {
+  text-align: center;
+
+  background-color: bisque;
+}
+
+.yellow-section {
+  text-align: center;
+  padding-top: 20px;
+}
+.main-content {
+  padding-top: 0px;
+}
+.h1content {
+  padding-top: 150px;
+  padding-bottom: 70px;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.p-content {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.btn-clk {
+  background-color: indianred;
+  text-align: center;
+  padding: 20px 30px;
+  color: white;
+}
+.pink-section {
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.container {
+  margin-top: 8px;
+  display: flex;
+  justify-content: first baseline;
+
+  padding-top: 140px;
+  padding-bottom: 40px;
+  padding-left: 130px;
+  background-color: blanchedalmond;
+}
+
+.images img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.content {
+  background-color: #ff0000;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 30px;
+  width: 25%;
+  height: 125px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  padding-left: 30px;
+  margin-left: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.arrow-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.arrow-link span {
+  margin-left: 20px;
+}
+.bottomcontent {
+  padding-left: 20px;
+  font-size: xx-large;
+}
+.bottomcontent1 {
+  padding-left: 20px;
+  font-size: xx-large;
+  padding-bottom: 10px;
+}
+.arrow-link {
+  margin-left: 20px;
+  font-size: x-large;
+}
